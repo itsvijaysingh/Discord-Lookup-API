@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 const DISCORD_BOT_TOKEN =
   process.env.DISCORD_BOT_TOKEN ||
-  ''; // Discord Bot Token
+  'paste_your_token_here'; // Discord Bot Token
 
 app.use(express.static('public'));
 app.use(cors()); // Enable CORS
